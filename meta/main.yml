@@ -1,0 +1,16 @@
+---
+dependencies:
+  - role: colstrom.apt-repository
+    repository_key: "0xA1715D88E1DF1F24"
+    repository_url: "deb http://ppa.launchpad.net/git-core/ppa/ubuntu {{ ansible_distribution_release }} main"
+
+galaxy_info:
+  author: "Steven Hsu"
+  description: "Git - A distributed version control system."
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+      - trusty
+  categories:
+    - development
